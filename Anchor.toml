@@ -1,0 +1,12 @@
+[programs.localnet]
+mut_test = "5N5m5EgRmatdkiRQpcdSTZg2wiaSHMaa5WHG1Qmo6W4g"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "localnet"
+wallet = "/home/hana/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
